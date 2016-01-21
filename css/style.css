@@ -479,34 +479,44 @@ section#contact .subsection p{
 /*Responsive*/
 
 /* ----------- Desktops and laptops ----------- */
-@media (min-width : 1200px) {
+/*@media (min-width : 1200px) {
   section .subsection {
     width: 1170px;
   }
 
+}*/
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1200px) {
+    section .subsection {
+    width: 1170px;
 }
 
 /* ----------- iPad landscape ----------- */
-@media only screen and (min-width : 1024px) {
+/*@media only screen and (min-width : 1024px) {
   section .subsection {
     width: 970px;
   }
 
 }
+*/
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    section .subsection {
+    width: 970x;
+}
+
 
 
 /* ----------- iPad portrait ----------- */
-@media only screen and  (max-width : 768px) {
+@media only screen and (max-width : 768px) {
   section .subsection {
     width: 750px;
   }
 
 }
 
-/* ----------- * ----------- */
-@media only screen  and (min-width : 600px) {
-
-}
 
 
 
