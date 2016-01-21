@@ -546,12 +546,12 @@ section#contact .subsection p{
 
 
 @media (max-width: 767px) and (min-width: 0px)  {
-/*    section .subsection {
-      width: 500px;
+    section .subsection {
+      width: 400px;
     }
     section#nav-2 #float-nav #float-nav-wrapper-inner {
-      width: 500px;
-    }*/
+      width: 400px;
+    }
     section#intro .subsection #header-title .name {
       font-size: 18pt;
     }
