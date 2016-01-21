@@ -479,13 +479,22 @@ section#contact .subsection p{
 /* Desktops and laptops */
 @media screen and (min-device-width: 1200px) { 
     section .subsection {
-    width: 1170px;
+      width: 1170px;
+    }
+    section#nav-2 #float-nav #float-nav-wrapper-inner {
+      width: 1170px;
+    }
 }
 
 /* iPad Landscape */
 @media only screen and (max-width: 1024px)  {
     section .subsection {
-    width: 700px;
+      width: 700px;
+    }  
+    section#nav-2 #float-nav #float-nav-wrapper-inner {
+      width: 700px;
+    }
+}
 
 }
 
@@ -505,6 +514,9 @@ section#contact .subsection p{
 /* iPad Portrait */
 @media only screen and (max-width: 768px)  {
     section .subsection {
+      width: 500px;
+    }
+    section#nav-2 #float-nav #float-nav-wrapper-inner {
       width: 500px;
     }
     .name {
