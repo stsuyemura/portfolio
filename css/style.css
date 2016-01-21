@@ -448,7 +448,7 @@ section#contact .container #contact-icon-container #contact-icon-3{
 	margin: 0 15px 25px 0;
 }
 
-/*section#contact .container #download-container {
+/*section#contact .subsection #download-container {
 	margin: 25px 0 50px 0;
 	float: right;
 }*/
@@ -475,6 +475,35 @@ section#contact .container p{
 
 					/*-------------------RESPONSIVE------------------*/
 /*Responsive*/
+
+/* ----------- Desktops and laptops ----------- */
+@media (min-width : 1200px) {
+  section .subsection {
+    width: 1170px;
+  }
+
+}
+
+/* ----------- iPad landscape ----------- */
+@media (min-width : 1024px) {
+  section .subsection {
+    width: 970px;
+  }
+
+}
+
+/* ----------- iPad portrait ----------- */
+@media only screen and  (min-width : 768px) {
+  section .subsection {
+    width: 750px;
+  }
+
+}
+
+/* ----------- * ----------- */
+@media only screen  and (min-width : 600px) {
+
+}
 
 
 
