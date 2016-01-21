@@ -477,9 +477,7 @@ section#contact .subsection p{
 					/*-------------------RESPONSIVE------------------*/
 
 /* Desktops and laptops */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+@media screen and (min-device-width: 1200px) { 
     section .subsection {
     width: 1170px;
 }
@@ -504,12 +502,12 @@ section#contact .subsection p{
 }*/
 
 /* iPad Portrait */
-@media only screen 
+/*@media only screen 
   and (max-device-width: 768px)  {
     section .subsection {
     width: 750px;
 }
-
+*/
 
 
 
