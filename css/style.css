@@ -16,6 +16,10 @@ body {
 section .subsection {
 	margin: 0 auto;
 	display: table;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 /*	width: 1099px;*/
 /*	background-color: #F6A790;*/
 }
