@@ -10,7 +10,7 @@ body {
 section .subsection {
 	margin: 0 auto;
 	display: table;
-	width: 1099px;
+	width: 80%;
 /*	background-color: #F6A790;*/
 }
 					/*-------------------HEADER-----------------*/
@@ -75,7 +75,7 @@ section#nav-2 #float-nav-wrapper #float-nav {
 }
 
 section#nav-2 #float-nav #float-nav-wrapper-inner {
-	width: 1099px;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -347,7 +347,7 @@ h4 {
 
 
 section#fuels .subsection .fuels-cir {
-	width: 1099px;
+	width: 80%;
 	margin: 0 auto;
 	display: table;
 	padding: 25px 0 0 0;
@@ -469,3 +469,8 @@ section#contact .subsection p{
 /*Responsive*/
 @media screen and (max-width: 1000px) {
 }  
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
