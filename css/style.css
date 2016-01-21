@@ -169,7 +169,7 @@ h4 {
 	width: 50px;
 	display: inline;*/
     transform: translateY(50%);
-    width: 400px;
+    width: 600px;
     float: left;
     margin: 100px 25px 25px 50px;
     font-size: 18px;
@@ -341,7 +341,7 @@ h4 {
 }
 
 .circle-wrapper {
-	float: left;
+	   float: left;
     display: inline-block;
     width: 300px;
     text-align: center;
