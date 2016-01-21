@@ -13,11 +13,9 @@ body {
 @font-face {
 	font-family: 'Roboto';
 }
-section .subsection {
+section .container {
 	margin: 0 auto;
 	display: table;
-  padding-left: 15px;
-  padding-right: 15px;
 /*	width: 1099px;*/
 /*	background-color: #F6A790;*/
 }
@@ -30,12 +28,12 @@ section#intro {
 	color: #ffffff;
 	text-align: center;
 }
-section#intro .subsection #nav-wrapper {
+section#intro .container #nav-wrapper {
 /*	background-color: #F6A790;*/
 	height: 100px;
 }
 
-section#intro .subsection #nav-wrapper #nav-left #logo {
+section#intro .container #nav-wrapper #nav-left #logo {
 	background-image: url(../assets/logo.svg);
 	background-position: 0 0;
 	width: 50px;
@@ -43,18 +41,19 @@ section#intro .subsection #nav-wrapper #nav-left #logo {
 	margin: 25px 0 0 0;	
 }
 
-section#intro .subsection #nav-wrapper #nav-left {
+section#intro .container #nav-wrapper #nav-left {
 	float: left;
 
 }
 
-section#intro .subsection #nav-wrapper #nav-right {
+section#intro .container #nav-wrapper #nav-right {
 	top: 0;
 	float: right;
 	padding-top: 35px;
 }
 
-section#intro .subsection #nav-wrapper #nav-right a {
+section#intro .container
+ #nav-wrapper #nav-right a {
 	font-family: 'Roboto',"Helvetica Neue","Helvetica","Arial",sans-serif;
 	color: #fff;
     font-size: 1.2em;
@@ -118,7 +117,7 @@ section#nav-2 #float-nav #float-nav-wrapper-inner #float-nav-right a {
 }
 
 /*----HEADER TITLE----*/
-section#intro .subsection #header-title {
+section#intro .container #header-title {
 	padding: 100px 0 200px 0;
 }
 .name {
@@ -204,7 +203,7 @@ h4 {
   background-color: #58585b;
   color: #fff;
 }
-.container {
+.grid-container {
   position: relative;
   width: 100%;
   margin: 0 auto;
@@ -355,7 +354,7 @@ h4 {
 }*/
 
 
-section#fuels .subsection .fuels-cir {
+section#fuels .container.fuels-cir {
 	width: 1099px;
 	margin: 0 auto;
 	display: table;
@@ -365,15 +364,15 @@ section#fuels .subsection .fuels-cir {
 */
 
 }
-section#fuels .subsection .fuels-cir .circle-wrapper.one {
+section#fuels .container .fuels-cir .circle-wrapper.one {
 	margin: 0 49.75px 25px 0;
 }
 
-section#fuels .subsection .fuels-cir .circle-wrapper.two {
+section#fuels .container .fuels-cir .circle-wrapper.two {
 	margin: 0 49.75px 25px 49.75px;
 }
 
-section#fuels .subsection .fuels-cir .circle-wrapper.three {
+section#fuels .container .fuels-cir .circle-wrapper.three {
 	margin: 0 0 25px 49.75px;
 }
 
@@ -420,11 +419,11 @@ section#contact {
 	background-color: #f1f1f2;
 }
 
-section#contact .subsection #contact-icon-container {
+section#contact .container #contact-icon-container {
 	margin: 25px 0 50px 0;
 }
 
-section#contact .subsection #contact-icon-container #contact-icon-1{
+section#contact .container #contact-icon-container #contact-icon-1{
 	background-image: url(../assets/linkedin.svg);
 	background-position: 0 0;
 	width: 50px;
@@ -433,7 +432,7 @@ section#contact .subsection #contact-icon-container #contact-icon-1{
 	margin: 0 15px 25px 0;
 }
 
-section#contact .subsection #contact-icon-container #contact-icon-2{
+section#contact .container #contact-icon-container #contact-icon-2{
 	background-image: url(../assets/behance.svg);
   background-position: 0 0;
 	width: 50px;
@@ -441,7 +440,7 @@ section#contact .subsection #contact-icon-container #contact-icon-2{
 	float: left;	
 	margin: 0 15px 25px 0;
 }
-section#contact .subsection #contact-icon-container #contact-icon-3{
+section#contact .container #contact-icon-container #contact-icon-3{
 	background-image: url(../assets/email.svg);
 	width: 50px;
 	height: 50px;	
@@ -449,13 +448,13 @@ section#contact .subsection #contact-icon-container #contact-icon-3{
 	margin: 0 15px 25px 0;
 }
 
-/*section#contact .subsection #download-container {
+/*section#contact .container #download-container {
 	margin: 25px 0 50px 0;
 	float: right;
 }*/
 
 
-section#contact .subsection #contact-icon-container #res-pdf{
+section#contact .container #contact-icon-container #res-pdf{
 	text-decoration: none;
 	font-family: 'Roboto',"Helvetica Neue","Helvetica","Arial",sans-serif;
 	color: #505050;
@@ -464,7 +463,7 @@ section#contact .subsection #contact-icon-container #res-pdf{
   float: right;
 }
 
-section#contact .subsection p{
+section#contact .container p{
 /*	text-decoration: none;
 	font-family: "Roboto-Light","Helvetica Neue","Helvetica","Arial",sans-serif;
 	color: #505050;
@@ -476,35 +475,6 @@ section#contact .subsection p{
 
 					/*-------------------RESPONSIVE------------------*/
 /*Responsive*/
-
-/* ----------- Desktops and laptops ----------- */
-@media (min-width : 1200px) {
-  section .subsection {
-    width: 1170px;
-  }
-
-}
-
-/* ----------- iPad landscape ----------- */
-@media (min-width : 1024px) {
-  section .subsection {
-    width: 970px;
-  }
-
-}
-
-/* ----------- iPad portrait ----------- */
-@media only screen and  (min-width : 768px) {
-  section .subsection {
-    width: 750px;
-  }
-
-}
-
-/* ----------- * ----------- */
-@media only screen  and (min-width : 600px) {
-
-}
 
 
 
