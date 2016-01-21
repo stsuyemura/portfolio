@@ -492,7 +492,7 @@ section#contact .subsection p{
 }
 
 /* iPad Landscape */
-@media (max-width: 1024px) and (min-width: 769px)  {
+@media (max-width: 1199px) and (min-width: 1024px)  {
     section .subsection {
       width: 700px;
     }  
@@ -517,7 +517,7 @@ section#contact .subsection p{
 }*/
 
 /* iPad Portrait */
-@media (max-width: 768px) and (min-width: 0px)  {
+@media (max-width: 1023px) and (min-width: 768px)  {
     section .subsection {
       width: 500px;
     }
