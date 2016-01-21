@@ -173,7 +173,6 @@ h4 {
 #do {
 	background-color: #f1f1f2;
 	clear: left;
-  margin-bottom: 50px;
 }
 
 .nav {
@@ -218,6 +217,7 @@ h4 {
 }
 .grid-3 {
   /*background-color: #CE895B;*/
+  margin-bottom: 50px;
 }
 
 .hidden-grid {
