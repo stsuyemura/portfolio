@@ -494,7 +494,7 @@ section#contact .subsection p{
 }
 
 /* ----------- iPad portrait ----------- */
-@media (min-width : 768px) {
+@media only screen and  (min-width : 768px) {
   section .subsection {
     width: 750px;
   }
