@@ -368,16 +368,19 @@ section#fuels .subsection .fuels-cir {
 section#fuels .subsection .fuels-cir .circle-wrapper.one {
 	margin: 0 49.75px 25px 0;
   float: left;
+  width: 300px;
 }
 
 section#fuels .subsection .fuels-cir .circle-wrapper.two {
 	margin: 0 49.75px 25px 49.75px;
     float: left;
+    width: 300px;
 }
 
 section#fuels .subsection .fuels-cir .circle-wrapper.three {
 	margin: 0 0 25px 49.75px;
-    float: left;
+  float: left;
+  width: 300px;
 }
 
 /*#column-1 {
@@ -395,7 +398,8 @@ section#fuels .subsection .fuels-cir .circle-wrapper.three {
 	float: left;
 	margin: 0 0 25px 25px;	
 }*/
-#icon-container {
+
+.icon-container {
   margin: 0 auto;
 }
 
