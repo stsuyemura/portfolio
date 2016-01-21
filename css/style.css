@@ -502,10 +502,6 @@ section#contact .subsection p{
   and (max-device-width: 768px)  {
     section .subsection {
     width: 750px;
-    h1 {
-      font-size: .8em;
-    }
-
 }
 
 
