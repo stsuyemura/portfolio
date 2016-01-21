@@ -479,7 +479,6 @@ section#contact .subsection p{
 /* Desktops and laptops */
 @media screen 
   and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
     section .subsection {
     width: 1170px;
