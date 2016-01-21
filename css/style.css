@@ -501,7 +501,7 @@ section#contact .subsection p{
 */
 
 /* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1200px) and (orientation : landscape) {
     section .subsection {
     width: 970x;
 }
@@ -509,7 +509,7 @@ section#contact .subsection p{
 
 
 /* ----------- iPad portrait ----------- */
-@media only screen and (max-width : 768px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   section .subsection {
     width: 750px;
   }
