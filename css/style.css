@@ -479,7 +479,7 @@ section#contact .subsection p{
 /* ----------- Desktops and laptops ----------- */
 @media (min-width : 1200px) {
   section .subsection {
-    width: 1099px;
+    width: 1070px;
   }
 
 }
@@ -493,12 +493,12 @@ section#contact .subsection p{
 }
 
 /* ----------- iPad portrait ----------- */
-/*@media (min-width : 768px) {
+@media (min-width : 768px) {
   section .subsection {
     width: 750px;
   }
 
-}*/
+}
 
 /* ----------- * ----------- */
 @media only screen  and (min-width : 600px) {
