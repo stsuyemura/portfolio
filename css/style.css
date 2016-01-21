@@ -3,7 +3,13 @@ body {
 	line-height: 2em;
 	font-family:'Roboto', sans-serif;
 	font-size: 14px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
 }
+
+
 @font-face {
 	font-family: 'Roboto';
 }
@@ -470,7 +476,27 @@ section#contact .subsection p{
 @media screen and (max-width: 1000px) {
 }  
 
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-/* Styles */
+/* ----------- Desktops and laptops ----------- */
+@media only screen  and (min-width : 1200px) {
+
 }
+
+/* ----------- iPad landscape ----------- */
+@media only screen  and (min-width : 1024px) {
+
+}
+
+/* ----------- iPad portrait ----------- */
+@media only screen  and (min-width : 768px) {
+
+}
+
+/* ----------- * ----------- */
+@media only screen  and (min-width : 600px) {
+
+}
+
+
+
+
+
