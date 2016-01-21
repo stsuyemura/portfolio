@@ -123,7 +123,6 @@ section#intro .subsection #header-title {
 	padding: 100px 0 200px 0;
 }
 section#intro .subsection #header-title .name {
-    font-size: 25pt;
     vertical-align: text-top;
     margin: 0 auto;
     display: table; 
@@ -490,6 +489,12 @@ section#contact .subsection p{
     }
     section#nav-2 #float-nav #float-nav-wrapper-inner {
       width: 1170px;
+    }
+    section#intro .subsection #header-title .name {
+      font-size: 25pt;
+    }
+    section#intro .subsection #header-title .tagline {
+      font-size: 18pt;
     }
 }
 
