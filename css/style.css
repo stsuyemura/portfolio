@@ -486,7 +486,7 @@ section#contact .subsection p{
 /* iPads (landscape) ----------- */
 @media only screen and (min-width : 1024px) {
     section .subsection {
-    width: 970x;
+    width: 970px;
 }
 
 
