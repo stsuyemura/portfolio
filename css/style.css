@@ -220,9 +220,6 @@ h4 {
 }
 
 section#do .subsection .grid-1 .container .sub-container .grid-1 #part-3 .grid-item--height1{
-  -ms-transform: translate(50px,100px); /* IE 9 */
-  -webkit-transform: translate(50px,100px); /* Safari */
-  transform: translate(50px,100px);
 
 }
 
