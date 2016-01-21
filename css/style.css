@@ -506,7 +506,12 @@ section#contact .subsection p{
     section#nav-2 #float-nav #float-nav-wrapper-inner {
       width: 700px;
     }
-}
+    section#intro .subsection #header-title .name {
+      font-size: 25pt;
+    }
+    section#intro .subsection #header-title .tagline {
+      font-size: 18pt;
+    }
 
 }
 
