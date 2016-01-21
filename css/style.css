@@ -480,7 +480,7 @@ section#contact .subsection p{
 /* ----------- Desktops and laptops ----------- */
 @media (min-width : 1200px) {
   section .subsection {
-    width: 1070px;
+    width: 1170px;
   }
 
 }
