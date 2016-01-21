@@ -218,6 +218,12 @@ h4 {
 .grid-3 {
   /*background-color: #CE895B;*/
 }
+.sub-container .grid-1 {
+  padding-bottom: 50px;
+}
+.sub-container .grid-2 {
+  padding-bottom: 50px;
+}
 
 .sub-container .grid-3 {
   padding-bottom: 50px;
