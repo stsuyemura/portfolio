@@ -484,11 +484,13 @@ section#contact .subsection p{
     width: 1170px;
 }
 
-@media only screen and (min-device-width: 1024px)  {
+@media only screen and (max-width: 1024px)  {
     section .subsection {
     width: 970px;
 
 }
+
+
 
 /* iPad Landscape */
 /*@media only screen 
