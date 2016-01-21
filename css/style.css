@@ -510,6 +510,9 @@ section#contact .subsection p{
     .name {
       font-size: 18pt;
     }
+    .tagline {
+    font-size: 13pt;
+    }
 }
 
 
