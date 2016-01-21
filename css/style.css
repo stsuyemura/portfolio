@@ -131,6 +131,7 @@ section#intro .subsection #header-title {
 	float: left;
 }
 #last {
+
 	opacity: 0.5;
 	float: left;
 }
@@ -168,7 +169,7 @@ h4 {
 	width: 50px;
 	display: inline;*/
     transform: translateY(50%);
-    width: 500px;
+    width: 400px;
     float: left;
     margin: 100px 25px 25px 50px;
     font-size: 18px;
