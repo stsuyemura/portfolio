@@ -85,6 +85,8 @@ section#nav-2 #float-nav-wrapper #float-nav {
 }
 
 section#nav-2 #float-nav #float-nav-wrapper-inner {
+  padding-left: 15px;
+  padding-right: 15px;
 	margin: 0 auto;
 }
 
