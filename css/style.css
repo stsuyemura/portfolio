@@ -482,9 +482,10 @@ section#contact .subsection p{
     width: 1170px;
 }
 
+/* iPad Landscape */
 @media only screen and (max-width: 1024px)  {
     section .subsection {
-    width: 970px;
+    width: 800px;
 
 }
 
@@ -502,12 +503,11 @@ section#contact .subsection p{
 }*/
 
 /* iPad Portrait */
-/*@media only screen 
-  and (max-device-width: 768px)  {
+@media only screen and (max-device-width: 768px)  {
     section .subsection {
-    width: 750px;
+    width: 500px;
 }
-*/
+
 
 
 
