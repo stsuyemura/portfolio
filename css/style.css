@@ -444,7 +444,7 @@ section#fuels .subsection .fuels-cir .circle-wrapper.three {
   margin: 0 0 25px 0;
 }
 
-#circle-icon {
+.circle-icon {
   margin: 0 auto;
   display: table;
 }
