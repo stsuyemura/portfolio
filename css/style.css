@@ -564,6 +564,22 @@ section#contact .subsection p{
     section#intro .subsection #header-title .tagline {
       font-size: 13pt;
     }
+
+    /*ABOUT ME*/
+    section#about .subsection .portrait {
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 25px 50px 75px 0;
+    }
+
+    section#about .subsection .bio {
+    transform: translateY(60%);
+    width: 300px;
+    float: left;
+    margin: 25px 25px 25px 25px;
+    font-size: 14px;
+    }
 }
 
 
