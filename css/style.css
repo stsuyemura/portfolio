@@ -529,6 +529,15 @@ section#contact .subsection #contact-icon-container #contact-icon-3{
 	float: right;
 }*/
 
+section#contact .subsection #contact-icon-container #contact-container-right {
+/*      text-decoration: none;
+  font-family: 'Roboto',"Helvetica Neue","Helvetica","Arial",sans-serif;
+  color: #505050;
+  font-size: 1.2em;
+  font-weight: 300;*/
+  width: 170.344px;
+  clear: left;
+}
 
 section#contact .subsection #contact-icon-container #res-pdf{
 	text-decoration: none;
