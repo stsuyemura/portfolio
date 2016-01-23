@@ -497,7 +497,7 @@ section#contact {
 
 section#contact .subsection #contact-icon-container {
 	margin: 25px 0 50px 0;
-  display: table;
+  width: 1170px;
 }
 
 section#contact .subsection #contact-icon-container #contact-icon-1{
