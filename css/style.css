@@ -527,9 +527,9 @@ section#contact .subsection p{
 
     section#about .subsection .bio {
     transform: translateY(50%);
-    width: 400px;
+    width: 300px;
     float: left;
-    margin: 100px 25px 25px 50px;
+    margin: 100px 25px 25px 25px;
     font-size: 18px;
     }
 
