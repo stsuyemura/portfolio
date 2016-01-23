@@ -443,6 +443,13 @@ section#fuels .subsection .fuels-cir .circle-wrapper.three {
   float: left;
   margin: 0 0 25px 0;
 }
+
+#icon-1 {
+  padding-top: 93px;
+    width: 148px;
+    height: 107.332px;
+}
+
 #circle-des {
   text-align: center;
   padding: 25px 0 0 0;
