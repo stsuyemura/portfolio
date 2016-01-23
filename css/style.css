@@ -599,6 +599,10 @@ section#contact .subsection p{
     }
 
     /*ABOUT ME*/
+    section#about .subsection h2 {
+    text-align: center;
+    }
+
     section#about .subsection .portrait {
     width: 200px;
     height: 200px;
