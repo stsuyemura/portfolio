@@ -772,7 +772,7 @@ section#contact .subsection p{
     }
 
     /*REACH OUT*/
-    section#contact .subsection #contact-icon-container #res-pdf{
+    section#contact .subsection #contact-icon-container #contact-container-right {
 /*      text-decoration: none;
       font-family: 'Roboto',"Helvetica Neue","Helvetica","Arial",sans-serif;
       color: #505050;
