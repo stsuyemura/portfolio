@@ -602,14 +602,14 @@ section#contact .subsection p{
     /*ABOUT ME*/
     section#about .subsection .portrait {
     float: left;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding: 25px 50px 75px 0;
     }
 
     section#about .subsection .bio {
     transform: translateY(30%);
-    width: 200px;
+    width: 250px;
     float: left;
     margin: 0 0 25px 0;
     font-size: 14px;
