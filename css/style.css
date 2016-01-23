@@ -410,10 +410,25 @@ section#fuels .subsection .fuels-cir .circle-wrapper.three {
   margin: 0 49.75px 25px 0;
 }
 
-.subtitle {
+section#fuels .circle-position .col-position .col-1 h4{
   font-size: 1.2em;
   font-weight: 200;
+  text-align: center;
+  padding: 25px 0 0 0;
+}
 
+section#fuels .circle-position .col-position .col-2 h4{
+  font-size: 1.2em;
+  font-weight: 200;
+  text-align: center;
+  padding: 25px 0 0 0;
+}
+
+section#fuels .circle-position .col-position .col-3 h4{
+  font-size: 1.2em;
+  font-weight: 200;
+  text-align: center;
+  padding: 25px 0 0 0;
 }
 
 #blue {
