@@ -444,11 +444,15 @@ section#fuels .subsection .fuels-cir .circle-wrapper.three {
   margin: 0 0 25px 0;
 }
 
+#circle-icon {
+  margin: 0 auto;
+  display: table;
+}
+
 #icon-1 {
   padding-top: 93px;
   width: 148px;
   height: 107.332px;
-  margin: 0 auto;
 }
 
 #circle-des {
