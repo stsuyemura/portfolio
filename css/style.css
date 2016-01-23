@@ -407,6 +407,7 @@ section#fuels .subsection .fuels-cir .circle-wrapper.three {
   border-radius: 50%;
   width: 300px;
   height: 300px;
+  float: left; 
   background-color: #F1F1F2;
 }
 
