@@ -605,12 +605,13 @@ section#contact .subsection p{
     width: 200px;
     height: 200px;
     padding: 25px 50px 75px 0;
+  
     }
 
     section#about .subsection .bio {
     transform: translateY(30%);
     width: 250px;
-    float: left;
+    clear: both;
     margin: 0 0 25px 0;
     font-size: 14px;
     }
