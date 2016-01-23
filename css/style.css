@@ -607,7 +607,7 @@ section#contact .subsection p{
     section#about .subsection .portrait {
     width: 200px;
     height: 200px;
-    padding: 25px 50px 25px 0;
+    padding: 25px 0 25px 0;
     }
 
     section#about .subsection .portrait img {
