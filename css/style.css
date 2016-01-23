@@ -130,11 +130,13 @@ section#intro .subsection #header-title .name {
 section#intro .subsection #header-title .name #first {
 	float: left;
 }
+
 section#intro .subsection #header-title .name #last {
 
 	opacity: 0.5;
 	float: left;
 }
+
 section#intro .subsection #header-title .tagline {
 	font-size: 18pt;
 	clear: left;
@@ -154,17 +156,17 @@ h4 {
 
 
 					/*-------------------ABOUT ME-----------------*/
-#about {
+section#about {
 /*	background-color: #959696;*/
 }
-.portrait {
+section#about .subsection .portrait {
     float: left;
     width: 400px;
     height: 400px;
     padding: 25px 75px 75px 0;
 }
 
-.bio {
+section#about .subsection .bio {
 	/*background-color: #17c7d1;
 	width: 50px;
 	display: inline;*/
@@ -506,11 +508,29 @@ section#contact .subsection p{
     section#nav-2 #float-nav #float-nav-wrapper-inner {
       width: 700px;
     }
+
+    /*HEADER*/    
     section#intro .subsection #header-title .name {
       font-size: 25pt;
     }
     section#intro .subsection #header-title .tagline {
       font-size: 18pt;
+    }
+
+    /*ABOUT ME*/
+    section#about .subsection .portrait {
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 25px 50px 75px 0;
+    }
+
+    section#about .subsection .bio {
+    transform: translateY(50%);
+    width: 400px;
+    float: left;
+    margin: 100px 25px 25px 50px;
+    font-size: 18px;
     }
 
 }
@@ -536,6 +556,8 @@ section#contact .subsection p{
     section#nav-2 #float-nav #float-nav-wrapper-inner {
       width: 500px;
     }
+
+    /*HEADER*/        
     section#intro .subsection #header-title .name {
       font-size: 18pt;
     }
@@ -552,6 +574,8 @@ section#contact .subsection p{
     section#nav-2 #float-nav #float-nav-wrapper-inner {
       width: 400px;
     }
+
+    /*HEADER*/        
     section#intro .subsection #header-title .name {
       font-size: 18pt;
     }
