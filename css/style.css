@@ -446,8 +446,9 @@ section#fuels .subsection .fuels-cir .circle-wrapper.three {
 
 #icon-1 {
   padding-top: 93px;
-    width: 148px;
-    height: 107.332px;
+  width: 148px;
+  height: 107.332px;
+  margin: 0 auto;
 }
 
 #circle-des {
