@@ -770,6 +770,16 @@ section#contact .subsection p{
       margin: 0 25px 25px 25px;
       padding: 0 0 0 40px;
     }
+
+    /*REACH OUT*/
+    section#contact .subsection #contact-icon-container #res-pdf{
+/*      text-decoration: none;
+      font-family: 'Roboto',"Helvetica Neue","Helvetica","Arial",sans-serif;
+      color: #505050;
+      font-size: 1.2em;
+      font-weight: 300;*/
+      clear: left;
+    }
 }
 
 
