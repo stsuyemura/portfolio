@@ -526,11 +526,11 @@ section#contact .subsection p{
     }
 
     section#about .subsection .bio {
-    transform: translateY(50%);
+    transform: translateY(60%);
     width: 300px;
     float: left;
     margin: 100px 25px 25px 25px;
-    font-size: 18px;
+    font-size: 14px;
     }
 
 }
