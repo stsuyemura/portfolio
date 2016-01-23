@@ -568,8 +568,8 @@ section#contact .subsection p{
     /*ABOUT ME*/
     section#about .subsection .portrait {
     float: left;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding: 25px 50px 75px 0;
     }
 
