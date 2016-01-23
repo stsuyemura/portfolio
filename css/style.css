@@ -350,33 +350,30 @@ section#about .subsection .bio {
 /*    background-color: #FFF;*/
 }
 
-/*#exec-1 {
-    background-image: url("https://dl.dropboxusercontent.com/s/lgcjhs71gecp6qr/calder-2.png"); 
-    width: 125px;
-    height: 125px;
-}*/
-
 
 section#fuels .subsection .fuels-cir {
-	width: 1099px;
+  width: 1170px;
 	margin: 0 auto;
 	display: table;
 	padding: 25px 0 0 0;
-
-/*	background-color: #7CD8CF;
-*/
-
 }
+
 section#fuels .subsection .fuels-cir .circle-wrapper.one {
 	margin: 0 49.75px 25px 0;
+  width: 300px;
+  float: left;
 }
 
 section#fuels .subsection .fuels-cir .circle-wrapper.two {
 	margin: 0 49.75px 25px 49.75px;
+  width: 300px;
+  float: left;
 }
 
 section#fuels .subsection .fuels-cir .circle-wrapper.three {
 	margin: 0 0 25px 49.75px;
+  width: 300px;
+  float: left;
 }
 
 /*#column-1 {
