@@ -396,7 +396,7 @@ section#fuels .subsection .fuels-cir .circle-wrapper.three {
 .circle-position {
   margin: 0 auto;
   display: table;
-  padding: 0 0 50px 0;
+  padding: 50px 0 50px 0;
 }
 .circle {
   border-radius: 50%;
