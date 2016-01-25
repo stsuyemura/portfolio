@@ -542,7 +542,7 @@ section#contact .subsection #res-pdf{
 	color: #505050;
   font-size: 1.2em;
   font-weight: 300;
-  clear: both;
+  float: right;
 }
 
 section#contact .subsection p{
@@ -778,6 +778,13 @@ section#contact .subsection p{
     }
 
     /*REACH OUT*/
+    section#contact .subsection #contact-icon-container {
+      height: 10px;
+    }
+
+    section#contact .subsection #res-pdf{
+      clear: both;
+    }
 
 }
 
