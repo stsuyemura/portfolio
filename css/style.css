@@ -779,11 +779,15 @@ section#contact .subsection p{
     }
 
 */
+    section#contact .subsection h2 {
+      text-align: center;
+      padding: 0;
+    } 
 
     section#contact .subsection #contact-icon-container {
       margin: 0 auto;
       display: table;
-      padding: 50px 0 50px 0;
+      padding: 50px 0 25px 0;
     }
 
     section#contact .subsection #res-pdf{
