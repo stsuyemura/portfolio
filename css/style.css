@@ -496,8 +496,7 @@ section#contact {
 }
 
 section#contact .subsection #contact-icon-container {
-  padding: 25px 0 0 0;
-	margin: 25px 0 50px 0;
+  padding: 50px 0 50px 0;
   width: 195px;
   height: 25px;
 }
@@ -784,6 +783,7 @@ section#contact .subsection p{
     section#contact .subsection #contact-icon-container {
       margin: 0 auto;
       display: table;
+      padding: 50px 0 50px 0;
     }
 
     section#contact .subsection #res-pdf{
