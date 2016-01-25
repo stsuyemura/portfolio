@@ -780,6 +780,12 @@ section#contact .subsection p{
     }
 
 */
+
+    section#contact .subsection #contact-icon-container {
+      margin: 0 auto;
+      display: table;
+    }
+    
     section#contact .subsection #res-pdf{
       margin: 0 auto;
       display: table;
