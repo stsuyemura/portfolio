@@ -498,7 +498,7 @@ s
 section#contact .subsection #contact-icon-container {
 	margin: 25px 0 50px 0;
   width: 195px;
-  height: 0px;
+  height: 25px;
 }
 
 section#contact .subsection #contact-icon-container a{
@@ -778,10 +778,10 @@ section#contact .subsection p{
     }
 
     /*REACH OUT*/
-    section#contact .subsection #contact-icon-container {
+/*    section#contact .subsection #contact-icon-container {
       height: 10px;
     }
-
+*/
 }
 
 
