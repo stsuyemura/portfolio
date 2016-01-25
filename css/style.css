@@ -120,13 +120,15 @@ section#nav-2 #float-nav #float-nav-wrapper-inner #float-nav-right a {
 
 /*----HEADER TITLE----*/
 section#intro .subsection #header-title {
-	padding: 100px 0 200px 0;
+	padding: 100px 0 250px 0;
 }
+
 section#intro .subsection #header-title .name {
     vertical-align: text-top;
     margin: 0 auto;
     display: table; 
 }
+
 section#intro .subsection #header-title .name #first {
 	float: left;
 }
