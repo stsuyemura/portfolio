@@ -494,11 +494,11 @@ section#fuels .circle-position .col-position .col-3 h4{
 section#contact {
 	background-color: #f1f1f2;
 }
-
+s
 section#contact .subsection #contact-icon-container {
 	margin: 25px 0 50px 0;
   width: 195px;
-  height: 50px;
+  height: 0px;
 }
 
 section#contact .subsection #contact-icon-container a{
