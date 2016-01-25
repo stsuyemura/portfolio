@@ -1,0 +1,321 @@
+@font-face{
+    font-family:'FS Albert Regular';
+    src:url("/_assets/fonts/fs-albert-regular.eot");
+    src:url("/_assets/fonts/fs-albert-regular.eot?#iefix") format("embedded-opentype"),
+    url("/_assets/fonts/fs-albert-regular.woff") format("woff");
+}
+@font-face{
+    font-family:'FS Albert Light';
+    src:url("/_assets/fonts/fs-albert-light.eot");
+    src:url("/_assets/fonts/fs-albert-light.eot?#iefix") format("embedded-opentype"),
+    url("/_assets/fonts/fs-albert-light.woff") format("woff");
+}
+@font-face {
+    font-family:'AvenirLTStd-Book';
+    src:url("/_assets/fonts/avenirltstd-book.otf");
+    src:url("/_assets/fonts/avenirltstd-book.otf?#iefix") format("embedded-opentype"),
+    url("/_assets/fonts/avenirltstd-book.woff") format("woff");
+}
+
+body{
+	font-family: 'FS Albert Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	src: url(fonts/'FSAlbert Light');
+	color: #666;
+	font-size: 13px;
+	margin: 0;
+}
+h1 {
+	font-size: 3em;
+	font-family: 'FS Albert Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	src: url(fonts/'FSAlbert Light');
+	color: #fff;
+	text-align: center;
+	/*webkit-transform: translateY(60%);
+   	ms-transform: translateY(60%);
+    transform: translateY(60%);*/
+    margin-bottom: 40px;
+    line-height: 1.2em;
+}
+.header {
+	background-color: #0197CD;
+	text-align: center;
+	height: 400px;
+	width: auto;
+	margin: 0 0 0 0;
+	overflow: hidden;
+}
+.hero-wrapper {
+	webkit-transform: translateY(70%);
+   	ms-transform: translateY(70%);
+    transform: translateY(60%);
+}
+.hero-des {
+	font-family: 'AvenirLTStd-Book','Helvetica Neue','Helvetica','Arial', sans-serif;
+	font-size: 1.4em;
+	color: #fff;
+	opacity: 0.7;
+	margin-bottom: 50px;
+    line-height: 1.3em;
+}
+h2 {
+	font-family: 'FS Albert Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	src: url(fonts/'FSAlbert Thin.otf');
+	color: #666;
+	font-size: 1.5em;
+	text-align: center;
+	margin: 75px 0 50px 0;
+}
+.logo-cap {
+	text-align: left;
+	width: 345.69px;
+}
+.logo-line-1 {
+	padding: 0 0 10px 0;
+}
+.logo-line-2 {
+	clear: both;
+}
+.logo-title {
+	color: #666;
+	font-size: 18px;
+}
+.logo-type {
+	color: #666;
+	font-size:13px;
+	padding: 0 7px 0 0;
+}
+.this {
+	float: left;
+	padding: 0 50px 50px 0;
+}
+.that {
+	float: left;
+	display: inline-block;
+	padding: 0 0 50px 0;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.pms-lg {
+	padding: 0 0 0 40px;
+	webkit-transform: translateY(100%);
+   	ms-transform: translateY(100%);
+    transform: translateY(270%);
+}
+.white-lg {
+	padding: 0 0 0 40px;
+	webkit-transform: translateY(100%);
+   	ms-transform: translateY(100%);
+    transform: translateY(270%);
+}
+.logo-colors {
+	background-color: #F6F6F7;
+}
+.logo-colors h3 {
+	font-family: 'FSAlbert Thin.otf', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	src: url(fonts/'FSAlbert Thin.otf');
+	color: #666;
+	font-size: 20px;
+}
+.circle-position {
+	margin: 0 auto;
+	display: table;
+	padding: 0 0 50px 0;
+}
+.circle {
+  	border-radius: 50%;
+	width: 216px;
+	height: 216px;
+}
+.col-1{
+	width: 216px;
+	float: left;
+	margin: 0 25px 25px 0;
+}
+.subtitle {
+	font-size: 18px;
+}
+#blue {
+	background-color: #365ebf;
+	float: left;
+	margin: 0 0 25px 0;
+}
+.col-2 {
+	width: 216px;
+	float: left;
+	margin: 0 25px 25px 25px;
+}
+#white {
+	background-color: white;
+	float: left;
+	margin: 0 0 25px 0;
+}
+.col-3 {
+	width: 216px;
+	float: left;
+	margin: 0 0 25px 25px;
+}
+#gray {
+	background-color: #b3b1b1;
+	float: left;
+	margin: 0 0 25px 0;
+}
+#circle-des {
+	text-align: center;
+	padding: 25px 0 0 0;
+}
+
+
+.logo-usage {
+	clear: both;
+}
+.rec-position {
+	clear: both;
+	margin: 0 auto;
+	display: table;	
+}
+.logo-use-title {
+	color: #666;
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 0 0 25px 0;
+}
+.row-0 {
+	width: auto;
+	display: inline-block;
+	margin: 0 0 50px 0;
+}
+.row-1 {
+	height: 235px;
+	width: auto;
+	display: inline-block;
+	margin: 0 0 50px 0;
+}
+.row-2 {
+	width: auto;
+	height: 235px;
+	clear: both;
+	margin: 0 0 50px 0;
+}
+.row-3 {
+	width: auto;
+	height: 235px;
+	clear: both;
+	margin: 0 0 50px 0;
+}
+.row-4 {
+	width: auto;
+	height: 235px;
+	clear: both;
+	margin: 0 0 50px 0;
+}
+.this {
+	float: left;
+	padding: 0 50px 0 0;
+}
+.that {
+	float: left;
+	display: inline-block;
+}
+.logos-position {
+	margin: 0 auto;
+	display: table;
+	/*width: 748px;*/
+}
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+	body {
+	margin: 0;
+	padding: 0;
+	}
+    h1 {
+    font-size: 2.5em;	
+	margin-bottom: 20px;
+    line-height: 1.2em;
+	}
+	.hero-wrapper {
+	webkit-transform: translateY(70%);
+   	ms-transform: translateY(70%);
+    transform: translateY(80%);
+	}
+	.hero-des {
+	font-size: 1.1em;
+	margin-bottom: 30px;
+    line-height: 1.3em;
+	}
+	.this {
+	padding: 0 0 25px 0;
+	}
+	.that {
+		padding: 0 0 40px 0;
+		clear: both;
+	}
+	.logos-position {
+		margin: 0 auto;
+		display: table;
+		width: 347px;
+	}
+	.logo-sub-container {
+		float: left;
+	}
+	.print-link{
+		display: inline;
+	}
+	.web-link{
+		display: inline;
+	}
+	.circle-position {
+		margin: 0 auto;
+		display: table;
+		width: 347px;
+		/*vertical-align: center;*/
+	}
+	.col-1{
+		float: left;
+		margin: 0 25px 25px 25px;
+		padding: 0 0 0 40px;
+		/*background-color: #000;*/
+	}
+	.col-2 {
+		clear: both;
+		margin: 0 25px 25px 25px;
+		padding: 0 0 0 40px;
+	}
+	.col-3 {
+		clear: both;
+		margin: 0 25px 25px 25px;
+		padding: 0 0 0 40px;
+	}
+	.rec-position {
+		margin: 0 auto;
+		display: table;
+		width: 347px;
+		/*vertical-align: center;*/
+	}
+	.primary-use {
+		margin: 0 0 25px 0;	
+	}
+	.row-1 {
+		height: 470px;
+
+	}
+	.row-2 {
+		clear: both;
+		height: 470px;
+	}
+	.row-3 {
+		height: 470px;
+	}
+	.row-4 {
+		height: 470px;
+	}	
+}
+
+
+
+
+
+
