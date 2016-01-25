@@ -9,7 +9,7 @@ $(window).load(function(){
   });
 
   $(document).scroll(function(){
-    var showFloatingNav = $(this).scrollTop() >= 487;
+    var showFloatingNav = $(this).scrollTop() >= 537;
     if(showFloatingNav){
       $('#float-nav-wrapper').slideDown();
     }
