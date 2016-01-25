@@ -547,12 +547,8 @@ section#contact .subsection #res-pdf{
 }
 
 section#contact .subsection p{
-/*	text-decoration: none;
-	font-family: "Roboto-Light","Helvetica Neue","Helvetica","Arial",sans-serif;
-	color: #505050;
-    font-size: 1.2em;
-    font-weight: 300;*/
-    clear: both;}
+  clear: both;
+}
 
 
 
@@ -782,7 +778,16 @@ section#contact .subsection p{
 /*    section#contact .subsection #contact-icon-container {
       height: 10px;
     }
+
 */
+    section#contact .subsection #res-pdf{
+      text-align: center;
+    }
+
+    section#contact .subsection p{
+      clear: both;
+      text-align: center;
+    }
 }
 
 
