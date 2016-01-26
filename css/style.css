@@ -596,6 +596,69 @@ section#contact .subsection p{
       font-size: 13pt;
     }
 
+    /*WHAT I DO*/
+    .grid {
+      margin: 0 auto;
+      width: 675px;
+      position: absolute;
+    }
+
+    .grid-item--height1 {
+      position: relative;
+      width: 150px;  
+      height: 320px; 213.33
+      overflow: hidden; 
+    }
+    .grid-item--height2 {
+      position: relative;
+      width: 150px;  
+      height: 250px; 166.67
+      overflow: hidden; 
+    }
+    .grid-item--height3 {
+      width: 150px;   
+      height: 158.33px; 105.55
+      overflow: hidden; 
+      position: relative;
+    }
+    .grid-item--height4{
+      width: 150px;    
+      height: 180px; 120
+      overflow: hidden;
+      position: relative;
+    }
+    .grid-item--height5{
+      width: 150px;   
+      height: 158.33px; 105.55
+      overflow: hidden;
+      position: relative;
+    }
+    .grid-item--height6{
+      width: 150px;  
+      height: 320px; 213.33
+      overflow: hidden;
+      position: relative;
+    }
+    .grid-item--height7{
+      width: 150px;  
+      height: 250px; 166.67
+      overflow: hidden;
+      position: relative;
+    }
+    .grid-item--height8{
+      width: 150px;  
+      height: 180px; 120
+      overflow: hidden;
+      position: relative;
+    }
+    .grid-item--height9{
+      width: 150px;   
+      height: 158.33px; 105.55
+      overflow: hidden;
+      position: relative;
+    }
+ 
+
     /*ABOUT ME*/
     section#about .subsection .portrait {
       float: left;
