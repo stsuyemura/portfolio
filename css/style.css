@@ -673,67 +673,6 @@ section#contact .subsection p{
     }
     /*WHAT I DO*/
 
-    .grid {
-      margin: 0 auto;
-      width: 67%;  
-      position: absolute;
-    }
-    .grid-item--height1 {
-      position: relative;
-      width: 67%;  
-      height: 67%;  
-      overflow: hidden; 
-    }
-    .grid-item--height2 {
-      position: relative;
-      width: 67%;  
-      height: 67%;  
-      overflow: hidden; 
-    }
-    .grid-item--height3 {
-      width: 67%;    
-      height: 67%;  
-      overflow: hidden; 
-      position: relative;
-    }
-    .grid-item--height4{
-      width: 67%;    
-      height: 67%; 
-      overflow: hidden;
-      position: relative;
-    }
-    .grid-item--height5{
-      width: 67%;    
-      height: 67%; 
-      overflow: hidden;
-      position: relative;
-    }
-    .grid-item--height6{
-      width: 67%;    
-      height: 67%;
-      overflow: hidden;
-      position: relative;
-    }
-    .grid-item--height7{
-      width: 67%;    
-      height: 67%;
-      overflow: hidden;
-      position: relative;
-    }
-    .grid-item--height8{
-      width: 67%;    
-      height: 67%;
-      overflow: hidden;
-      position: relative;
-    }
-    .grid-item--height9{
-      width: 67%;    
-      height: 67%;
-      overflow: hidden;
-      position: relative;
-    }
-
-
 
     /*FUELS*/
     .circle-position {
