@@ -170,7 +170,7 @@ section#about .subsection .bio {
 	/*background-color: #17c7d1;
 	width: 50px;
 	display: inline;*/
-    transform: translateY(50%);
+/*    transform: translateY(50%);*/
     width: 600px;
     float: left;
     margin: 100px 25px 25px 50px;
