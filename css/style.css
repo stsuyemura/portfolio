@@ -676,14 +676,20 @@ section#contact .subsection p{
     }
 
     /*ABOUT ME*/
-    section#about .subsection .portrait {
+    section#about .subsection #bio-container {
+      margin: 0 auto;
+      display: table;
+      width: 347px;
+    }
+
+    section#about .subsection #bio-container .portrait {
       width: 350px;
       height: 200px;
       padding: 25px 0 25px 0;
       margin: 0 auto;
     }
 
-    section#about .subsection .bio {
+    section#about .subsection #bio-container .bio {
     transform: translateY(30%);
       transform: translateY(-25%);
       width: 250px;
