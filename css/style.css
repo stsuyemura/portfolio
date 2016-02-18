@@ -677,10 +677,10 @@ section#contact .subsection p{
 
     /*ABOUT ME*/
     section#about .subsection .portrait {
-      float: left;
-      width: 200px;
+      width: 350px;
       height: 200px;
-      padding: 25px 50px 75px 0;
+      padding: 25px 0 25px 0;
+      margin: 0 auto;
     }
 
     section#about .subsection .bio {
