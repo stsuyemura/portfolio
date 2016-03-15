@@ -140,12 +140,8 @@ section#intro .subsection #header-title .name #last {
 section#intro .subsection #header-title .tagline {
 	font-size: 18pt;
 	clear: left;
-  font-weight: 100;
 }
-h1 {
-  font-weight: 300;
-  font-family: 'Roboto';
-}
+
 h2 {
 	font-size: 20pt;
 	font-family: 'Roboto';
@@ -155,7 +151,7 @@ h2 {
 h4 {
 	font-family: 'Roboto',"Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 1.2em;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 
