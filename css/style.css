@@ -614,6 +614,8 @@ section#tabletrack .subsection .casestudy .casestudy-header {
 section#tabletrack .subsection .casestudy img {
   margin: 0 auto;
   width: 957px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 
