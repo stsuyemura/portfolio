@@ -606,7 +606,7 @@ section#contact .subsection p{
 }
 
           /*-------------------TABLE TRACK CS------------------*/
-section#tabletrack .subsection .casestudy img {
+section#tabletrack .subsection .casestudy .casestudy-header {
   width: 1170px;
   height: 400px;
 }
