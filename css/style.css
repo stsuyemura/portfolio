@@ -609,6 +609,7 @@ section#contact .subsection p{
 section#tabletrack .subsection .casestudy .casestudy-header {
   width: 1170px;
   height: 400px;
+  padding: 50px 0 0 0;
 }
 
 section#tabletrack .subsection .subtitle p{
@@ -632,6 +633,7 @@ section#tabletrack .subsection .casestudy a {
   text-decoration: none;
   text-align: center;
   display: block;
+  padding: 0 0 50px 0;
 }
 
 
