@@ -187,14 +187,14 @@ section#about .subsection .bio {
   clear: left;
 }
 
-section#case .subsection #casestudy-container .casestudy-img {
+section#work .subsection #casestudy-container .casestudy-img {
     float: left;
     width: 500px;
     height: 575.21px;
     padding: 25px 75px 75px 0;
 }
 
-section#case .subsection #casestudy-container {
+section#work .subsection #casestudy-container {
   /*background-color: #17c7d1;
   width: 50px;
   display: inline;*/
@@ -205,11 +205,11 @@ section#case .subsection #casestudy-container {
 
 }
 
-section#case .subsection #casestudy-container .casestudy-des p {
+section#work .subsection #casestudy-container .casestudy-des p {
    font-size: 18px;
 }
 
-section#case .subsection #casestudy-container .casestudy-des a {
+section#work .subsection #casestudy-container .casestudy-des a {
    font-size: 14px;
    text-decoration: none;
 }
