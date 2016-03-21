@@ -618,8 +618,7 @@ section#tabletrack .subsection .subtitle p{
 section#tabletrack .subsection .casestudy img {
   margin: 0 auto;
   width: 957px;
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
 }
 
 section#tabletrack .subsection .casestudy h4 {
