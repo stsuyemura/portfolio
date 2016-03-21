@@ -631,6 +631,7 @@ section#tabletrack .subsection .casestudy a {
   color: #17c7d1;
   text-decoration: none;
   text-align: center;
+  display: block;
 }
 
 
