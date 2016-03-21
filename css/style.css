@@ -627,8 +627,10 @@ section#tabletrack .subsection .casestudy h4 {
 }
 
 section#tabletrack .subsection .casestudy a {
+  clear: both;
   font-size: 24px;
   color: #17c7d1;
+  text-decoration: none;
 }
 
 
