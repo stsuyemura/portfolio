@@ -605,6 +605,13 @@ section#contact .subsection p{
   clear: both;
 }
 
+          /*-------------------TABLE TRACK CS------------------*/
+section#tabletrack .subsection .casestudy img {
+  width: 1170px;
+  height: 400px;
+}
+
+
 
 
 					/*-------------------RESPONSIVE------------------*/
