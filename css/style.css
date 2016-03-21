@@ -611,11 +611,24 @@ section#tabletrack .subsection .casestudy .casestudy-header {
   height: 400px;
 }
 
+section#tabletrack .subsection .subtitle p{
+  font-size: 18px;
+}
+
 section#tabletrack .subsection .casestudy img {
   margin: 0 auto;
   width: 957px;
   display: inline-block;
   vertical-align: middle;
+}
+
+section#tabletrack .subsection .casestudy h4 {
+  font-size: 24px;
+}
+
+section#tabletrack .subsection .casestudy a {
+  font-size: 24px;
+  color: #17c7d1;
 }
 
 
