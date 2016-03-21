@@ -183,9 +183,37 @@ section#about .subsection .bio {
 					/*-------------------WHAT I DO------------------*/
 
 
+
 #do {
 	background-color: #f1f1f2;
 	clear: left;
+}
+
+section#do .subsection #casestudy-container .casestudy-img {
+    float: left;
+    width: 500px;
+    height: 1009.18px;
+    padding: 25px 75px 75px 0;
+}
+
+section#do .subsection #casestudy-container {
+  /*background-color: #17c7d1;
+  width: 50px;
+  display: inline;*/
+/*    transform: translateY(50%);*/
+    width: 600px;
+    float: left;
+    margin: 100px 25px 25px 50px;
+
+}
+
+section#do .subsection #casestudy-container .casestudy-des p {
+   font-size: 18px;
+}
+
+section#do .subsection #casestudy-container .casestudy-des a {
+   font-size: 14px;
+   text-decoration: none;
 }
 
 .nav {
