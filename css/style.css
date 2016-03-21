@@ -194,19 +194,12 @@ section#work .subsection #casestudy-container .casestudy-img {
     padding: 25px 75px 75px 0;
 }
 
-section#work .subsection #casestudy-container {
-  /*background-color: #17c7d1;
-  width: 50px;
-  display: inline;*/
-/*    transform: translateY(50%);*/
-    width: 500px;
-    float: left;
-    margin: 100px 25px 25px 50px;
-
-}
 
 section#work .subsection #casestudy-container .casestudy-des p {
-   font-size: 18px;
+    width: 600px;
+    float: left;
+    margin: 100px 25px 25px 50px;
+    font-size: 18px;
 }
 
 section#work .subsection #casestudy-container .casestudy-des a {
