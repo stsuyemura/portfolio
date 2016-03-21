@@ -611,6 +611,10 @@ section#tabletrack .subsection .casestudy .casestudy-header {
   height: 400px;
 }
 
+section#tabletrack .subsection .casestudy img {
+  margin: 0 auto;
+}
+
 
 
 
