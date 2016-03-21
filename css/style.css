@@ -195,10 +195,17 @@ section#work .subsection #casestudy-container .casestudy-img {
 }
 
 
-section#work .subsection #casestudy-container .casestudy-des p {
+section#work .subsection #casestudy-container .casestudy-des {
     width: 600px;
     float: left;
     margin: 100px 25px 25px 50px;
+}
+
+section#work .subsection #casestudy-container .casestudy-des h4 {
+    font-size: 24px;
+}
+
+section#work .subsection #casestudy-container .casestudy-des p {
     font-size: 18px;
 }
 
