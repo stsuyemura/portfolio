@@ -189,7 +189,7 @@ section#about .subsection .bio {
 
 section#work .subsection #casestudy-container .casestudy-img {
     float: left;
-    width: 500px;
+    width: 400px;
     height: 575.21px;
     padding: 25px 75px 75px 0;
 }
@@ -199,7 +199,7 @@ section#work .subsection #casestudy-container {
   width: 50px;
   display: inline;*/
 /*    transform: translateY(50%);*/
-    width: 400px;
+    width: 500px;
     float: left;
     margin: 100px 25px 25px 50px;
 
