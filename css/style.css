@@ -612,6 +612,15 @@ section#tabletrack .subsection .casestudy .casestudy-header {
   padding: 50px 0 0 0;
 }
 
+section#tabletrack .subsection .casestudy .cs-title {
+  font-size: 30px;
+}
+
+section#tabletrack .subsection .casestudy .cs-des {
+  font-size: 18px;
+}
+
+
 section#tabletrack .subsection .subtitle p{
   font-size: 18px;
 }
