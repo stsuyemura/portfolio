@@ -638,15 +638,19 @@ section#tabletrack .subsection .casestudy a {
   display: block;
   padding: 0 0 50px 0;
 }
+section#tabletrack .subsection .casestudy #mvp-group {
+  margin: 0 auto;
+  width: 1050px;
+}
 
 section#tabletrack .subsection .casestudy #mvp-group #mvp-col-1{
-  width: 300px;
+  width: 500px;
   float: left;
   margin: 0 25px 25px 0;
 }
 
 section#tabletrack .subsection .casestudy #mvp-group #mvp-col-2{
-  width: 300px;
+  width: 500px;
   float: left;
   margin: 0 0 25px 25px;
 }
