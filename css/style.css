@@ -624,6 +624,7 @@ section#tabletrack .subsection .casestudy img {
 
 section#tabletrack .subsection .casestudy h4 {
   font-size: 22px;
+  clear: both;
 }
 
 section#tabletrack .subsection .casestudy a {
