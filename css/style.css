@@ -638,18 +638,18 @@ section#tabletrack .subsection .casestudy a {
   display: block;
   padding: 0 0 50px 0;
 }
-section#tabletrack .subsection .casestudy #mvp-group {
+section#tabletrack .subsection .casestudy #cs-group {
   margin: 0 auto;
   width: 957px;
 }
 
-section#tabletrack .subsection .casestudy #mvp-group #mvp-col-1{
+section#tabletrack .subsection .casestudy #mvp-group #cs-col-1{
   width: 450px;
   float: left;
   margin: 0 28.5px 25px 0;
 }
 
-section#tabletrack .subsection .casestudy #mvp-group #mvp-col-2{
+section#tabletrack .subsection .casestudy #mvp-group #cs-col-2{
   width: 450px;
   float: left;
   margin: 0 0 25px 28.5px;
