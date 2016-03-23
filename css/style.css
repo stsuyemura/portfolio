@@ -110,11 +110,11 @@ section#nav-2 #float-nav #float-nav-wrapper-inner #float-nav-right {
 section#nav-2 #float-nav #float-nav-wrapper-inner #float-nav-right a {
 	font-family: 'Roboto',"Helvetica Neue","Helvetica","Arial",sans-serif;
 	color: #505050;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 100;
     float: left;
     text-decoration: none;
-    padding: 0px 0 0 25px;
+    padding: 0px 0 0 20px;
 
 }
 
