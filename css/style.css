@@ -867,6 +867,13 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
       font-size: 14px;
       text-align: center;
     }
+
+    /*WORK*/
+    section#work .subsection h2 {
+      text-align: center;
+      padding: 0;
+    } 
+
     /*DO*/
     section#do .subsection h2 {
       text-align: center;
