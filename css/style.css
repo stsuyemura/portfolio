@@ -57,11 +57,11 @@ section#intro .subsection #nav-wrapper #nav-right {
 section#intro .subsection #nav-wrapper #nav-right a {
 	font-family: 'Roboto',"Helvetica Neue","Helvetica","Arial",sans-serif;
 	color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 100;
     float: left;
     text-decoration: none;
-    padding: 0px 0 0 25px;
+    padding: 0px 0 0 20px;
 
 }
 
