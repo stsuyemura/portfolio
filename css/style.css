@@ -824,13 +824,13 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
     section#work .subsection #casestudy-container .casestudy-img {
     width: 200px;
     height: 287.61px;
-    padding: 25px 0px 0 0;
+    padding: 25px 0px 0 75px;
     margin: 0 auto;
     }
 
     section#work .subsection #casestudy-container .casestudy-des {
     transform: translateY(30%);
-    transform: translateY(-25%);
+    transform: translateY(-45%);
     width: 250px;
     clear: both;
     text-align: center;
