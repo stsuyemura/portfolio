@@ -812,6 +812,25 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
       font-size: 14px;
       text-align: center;
     }
+
+
+    /*WORK*/
+    section#work .subsection #casestudy-container .casestudy-img {
+    float: left;
+    width: 200px;
+    height: 287.61px;
+    padding: 25px 0px 25px 0;
+    }
+
+    section#work .subsection #casestudy-container .casestudy-des {
+    transform: translateY(30%);
+    transform: translateY(-25%);
+    width: 250px;
+    clear: both;
+    text-align: center;
+    }
+
+
     /*WHAT I DO**/
 
 
