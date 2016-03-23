@@ -815,6 +815,12 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
 
 
     /*WORK*/
+    section#work .subsection #casestudy-container {
+    margin: 0 auto;
+    display: table;
+    width: 347px;
+    }
+
     section#work .subsection #casestudy-container .casestudy-img {
     float: left;
     width: 200px;
@@ -830,6 +836,7 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
     clear: both;
     text-align: center;
     }
+
 
 
     /*WHAT I DO**/
