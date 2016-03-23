@@ -719,6 +719,21 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
       font-size: 14px;
     }
 
+    /*WORK*/
+    section#work .subsection #casestudy-container .casestudy-img {
+    float: left;
+    width: 300px;
+    height: 431.41px;
+    padding: 25px 25px 25px 0;
+    }
+
+    section#work .subsection #casestudy-container .casestudy-des {
+    width: 300px;
+    float: left;
+    margin: 25px 25px 25px 25px;
+    }
+
+
     /*FUELS*/
     .circle-position {
       margin: 0 auto;
@@ -797,7 +812,7 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
       font-size: 14px;
       text-align: center;
     }
-    /*WHAT I DO*****/
+    /*WHAT I DO**/
 
 
     /*FUELS*/
@@ -873,6 +888,7 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
       text-align: center;
       padding: 0;
     } 
+
 
     /*DO*/
     section#do .subsection h2 {
