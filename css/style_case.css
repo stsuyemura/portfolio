@@ -63,9 +63,29 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
 
           /*-------------------RESPONSIVE------------------*/
 
+/* Desktops and laptops */
+@media (min-width: 1200px) { 
 
+  section#tabletrack .subsection .casestudy .casestudy-header {
+    width: 1170px;
+    height: 400px;
+    padding: 50px 0 0 0;
+  }
 
+}
 
+/* iPad Landscape */
+@media (max-width: 1199px) and (min-width: 1024px)  {
+
+    section#tabletrack .subsection .casestudy .casestudy-header {
+    width: 700px;
+    height: 239.32px;
+    padding: 50px 0 0 0;
+    display: block;
+    margin: 0 auto;
+  }
+
+}
 
 
 
