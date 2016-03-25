@@ -1,4 +1,9 @@
           /*-------------------TABLE TRACK CS------------------*/
+section .subsection .casestudy .wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  background: none;
+}
 section#tabletrack .subsection .casestudy .casestudy-header #tabletrack-header {
   background: url("../assets/tabletrack/tt_header.png") no-repeat center;
   width: 1170px;
@@ -66,8 +71,15 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
 
 /* Desktops and laptops */
 @media (min-width: 1200px) { 
+
   section .subsection {
     width: 1170px;
+  }
+
+  section .subsection .casestudy .wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  background: none;
   }
 
   section#tabletrack .subsection .casestudy .casestudy-header #tabletrack-header   {
@@ -85,6 +97,11 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
     section .subsection {
       width: 700px;
     } 
+    section .subsection .casestudy .wrapper {
+    width: 700px;
+    margin: 0 auto;
+    background: none;
+    }
 
     section#tabletrack .subsection .casestudy .casestudy-header #tabletrack-header   {
     width: 700px;
@@ -102,6 +119,12 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
       width: 500px;
     }
 
+    section .subsection .casestudy .wrapper {
+      width: 500px;
+      margin: 0 auto;
+      background: none;
+    }
+
     section#tabletrack .subsection .casestudy .casestudy-header #tabletrack-header   {
     width: 500px;
     height: 170.94px;
@@ -115,6 +138,12 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
 @media (max-width: 767px) and (min-width: 0px)  {
     section .subsection {
       width: 350px;
+    }
+
+    section .subsection .casestudy .wrapper {
+      width: 350px;
+      margin: 0 auto;
+      background: none;
     }
 
     section#tabletrack .subsection .casestudy .casestudy-header #tabletrack-header   {
