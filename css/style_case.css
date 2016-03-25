@@ -49,7 +49,7 @@ section#tabletrack .subsection .casestudy a {
   display: block;
   padding: 0 0 50px 0;
 }
-section#tabletrack .subsection .casestudy .wrapper #tt-img.one {
+section#tabletrack .subsection .casestudy .wrapper #tt-img one {
   background: url("../assets/tabletrack/tt_affinity.png");
   width: 957px;
   height: 612px;
