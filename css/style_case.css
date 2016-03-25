@@ -78,8 +78,8 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
 @media (max-width: 1199px) and (min-width: 1024px)  {
 
     section#tabletrack .subsection .casestudy .casestudy-header {
-    width: 900px;
-    height: 307.69px;
+    width: 700px;
+    height: 239.32px;
     padding: 50px 0 0 0;
     display: block;
     margin: 0 auto;
@@ -87,6 +87,30 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
 
 }
 
+/* iPad Portrait */
+@media (max-width: 1023px) and (min-width: 768px)  {
+
+    section#tabletrack .subsection .casestudy .casestudy-header {
+    width: 500px;
+    height: 170.94px;
+    padding: 50px 0 0 0;
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+@media (max-width: 767px) and (min-width: 0px)  {
+
+    section#tabletrack .subsection .casestudy .casestudy-header {
+    width: 350px;
+    height: 119.66px;
+    padding: 50px 0 0 0;
+    display: block;
+    margin: 0 auto;
+  }
+
+}
 
 
 
