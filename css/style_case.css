@@ -69,6 +69,8 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
   section#tabletrack .subsection .casestudy .casestudy-header {
     width: 1170px;
     height: 400px;
+    display: block;
+    margin: auto;
     padding: 50px 0 0 0;
   }
 
@@ -82,7 +84,7 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
     height: 239.32px;
     padding: 50px 0 0 0;
     display: block;
-    margin: 0 auto;
+    margin: auto;
   }
 
 }
