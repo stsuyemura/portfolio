@@ -163,7 +163,7 @@ section#tabletrack .subsection .casestudy .wrapper  #cs-group #cs-col-2{
       margin: 0 auto;
       width: 500px;
       display: block;
-    }
+  }
 
 }
 
@@ -200,6 +200,14 @@ section#tabletrack .subsection .casestudy .wrapper  #cs-group #cs-col-2{
     width: 350px;
     display: block;
   }
+    section#tabletrack .subsection .casestudy .wrapper  #cs-group #cs-col-1{
+      width: 350px;
+  }
+
+    section#tabletrack .subsection .casestudy .wrapper  #cs-group #cs-col-2{
+      width: 350px;
+    }
+
 
 
 }
