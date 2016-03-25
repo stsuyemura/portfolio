@@ -12,35 +12,35 @@ section#tabletrack .subsection .casestudy .wrapper .casestudy-header #tabletrack
   padding: 50px 0 0 0;
 }
 
-section#tabletrack .subsection .casestudy .cs-title {
+section#tabletrack .subsection .casestudy .wrapper  .cs-title {
   font-size: 30px;
 }
 
-section#tabletrack .subsection .casestudy .cs-des {
+section#tabletrack .subsection .casestudy .wrapper  .cs-des {
   font-size: 18px;
 }
 
 
-section#tabletrack .subsection .subtitle p{
+section#tabletrack .subsection .casestudy .wrapper p{
   font-size: 18px;
 }
 
-section#tabletrack .subsection .casestudy img {
+section#tabletrack .subsection .casestudy .wrapper img {
   margin: 0 auto;
   width: 957px;
   display: block;
 }
-section#tabletrack .subsection .casestudy h2{
+section#tabletrack .subsection .casestudy .wrapper h2{
   padding: 50px 0 0 0;
   clear: both;
  }
 
-section#tabletrack .subsection .casestudy h4 {
+section#tabletrack .subsection .casestudy .wrapper h4 {
   font-size: 22px;
   clear: both;
 }
 
-section#tabletrack .subsection .casestudy a {
+section#tabletrack .subsection .casestudy .wrapper  a {
   clear: both;
   font-size: 22px;
   color: #17c7d1;
@@ -49,29 +49,18 @@ section#tabletrack .subsection .casestudy a {
   display: block;
   padding: 0 0 50px 0;
 }
-section#tabletrack .subsection .casestudy .wrapper #tt-img one {
-  background: url("../assets/tabletrack/tt_affinity.png");
-  width: 957px;
-  height: 612px;
-}
-
-section#tabletrack .subsection .casestudy .wrapper #tt-img.two {
-  background: url("../assets/tabletrack/tt_personas.png");
-  width: 957px;
-  height: 933px;
-}
-section#tabletrack .subsection .casestudy #cs-group {
+section#tabletrack .subsection .casestudy .wrapper  #cs-group {
   margin: 0 auto;
   width: 1170px;
 }
 
-section#tabletrack .subsection .casestudy #cs-group #cs-col-1{
+section#tabletrack .subsection .casestudy .wrapper  #cs-group #cs-col-1{
   width: 500px;
   float: left;
   margin: 0 85px 25px 0;
 }
 
-section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
+section#tabletrack .subsection .casestudy .wrapper  #cs-group #cs-col-2{
   width: 500px;
   float: left;
   margin: 0 0 25px 85px;
@@ -93,6 +82,7 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
   margin: 0 auto;
   background: none;
   }
+
 
   section#tabletrack .subsection .casestudy .wrapper .casestudy-header #tabletrack-header   {
     width: 1170px;
@@ -122,6 +112,17 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
     display: block;
     margin: auto;
   }
+    section#tabletrack .subsection .casestudy .wrapper  #cs-group {
+      margin: 0 auto;
+      width: 700px;
+      display: table;
+  }
+
+  section#tabletrack .subsection .casestudy .wrapper img {
+  margin: 0 auto;
+  width: 957px;
+  display: block;
+  }
 
 }
 
@@ -143,6 +144,12 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
     padding: 50px 0 0 0;
     display: block;
     margin: 0 auto;
+  }
+
+  section#tabletrack .subsection .casestudy .wrapper img {
+  margin: 0 auto;
+  width: 957px;
+  display: block;
   }
 
 }
