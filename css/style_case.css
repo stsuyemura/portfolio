@@ -1,5 +1,5 @@
           /*-------------------TABLE TRACK CS------------------*/
-section#tabletrack .subsection .casestudy .casestudy-header .casestudy-header-img {
+section#tabletrack .subsection .casestudy .casestudy-header #tabletrack-header {
   background: url("../assets/tabletrack/tt_header.png") no-repeat center;
   width: 1170px;
   height: 400px;
@@ -67,7 +67,7 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
 /* Desktops and laptops */
 @media (min-width: 1200px) { 
 
-  section#tabletrack .subsection .casestudy .casestudy-header .casestudy-header-img  {
+  section#tabletrack .subsection .casestudy .casestudy-header #tabletrack-header   {
     width: 1170px;
     height: 400px;
     display: block;
@@ -80,7 +80,7 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
 /* iPad Landscape */
 @media (max-width: 1199px) and (min-width: 1024px)  {
 
-    section#tabletrack .subsection .casestudy .casestudy-header .casestudy-header-img  {
+    section#tabletrack .subsection .casestudy .casestudy-header #tabletrack-header   {
     width: 700px;
     height: 239.32px;
     padding: 50px 0 0 0;
@@ -93,7 +93,7 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
 /* iPad Portrait */
 @media (max-width: 1023px) and (min-width: 768px)  {
 
-    section#tabletrack .subsection .casestudy .casestudy-header .casestudy-header-img  {
+    section#tabletrack .subsection .casestudy .casestudy-header #tabletrack-header   {
     width: 500px;
     height: 170.94px;
     padding: 50px 0 0 0;
@@ -105,7 +105,7 @@ section#tabletrack .subsection .casestudy #cs-group #cs-col-2{
 
 @media (max-width: 767px) and (min-width: 0px)  {
 
-    section#tabletrack .subsection .casestudy .casestudy-header .casestudy-header-img  {
+    section#tabletrack .subsection .casestudy .casestudy-header #tabletrack-header   {
     width: 350px;
     height: 119.66px;
     padding: 50px 0 0 0;
