@@ -190,7 +190,7 @@ section#about .subsection .bio {
 section#work .subsection #casestudy-container .casestudy-img {
     float: left;
     width: 400px;
-    height: 575.21px;
+    height: 400px;
     padding: 25px 75px 0 0;
 }
 
@@ -204,7 +204,7 @@ section#work .subsection #casestudy-container .casestudy-des {
 section#work .subsection #casestudy-container .casestudy-img_2 {
     float: right;
     width: 400px;
-    height: 575.21px;
+    height: 400px;
     padding: 25px 75px 0 0;
 }
 
