@@ -221,6 +221,7 @@ section#work .subsection #casestudy-container .casestudy-des h4 {
 
 section#work .subsection #casestudy-container .casestudy-des p {
     font-size: 18px;
+    font-weight: 50;
 }
 
 section#work .subsection #casestudy-container .casestudy-des a {
@@ -829,7 +830,7 @@ section#contact .subsection p{
     width: 250px;
     clear: both;
     text-align: center;
-    margin: 50px 50px 25px 50px;
+    margin: 50px 50px 0px 50px;
     }
 
 
@@ -944,7 +945,7 @@ section#contact .subsection p{
     width: 250px;
     clear: both;
     text-align: center;
-    margin: 50px 50px 25px 50px;    
+    margin: 50px 50px 0px 50px;    
     }
 
 
