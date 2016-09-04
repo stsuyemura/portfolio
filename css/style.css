@@ -229,6 +229,20 @@ section#work .subsection #casestudy-container .casestudy-des a {
    color: #17c7d1;
 }
 
+section#work .subsection #casestudy-container .casestudy-des_2 h4 {
+    font-size: 24px;
+}
+
+section#work .subsection #casestudy-container .casestudy-des_2 p {
+    font-size: 18px;
+}
+
+section#work .subsection #casestudy-container .casestudy-des_2 a {
+   font-size: 14px;
+   text-decoration: none;
+   color: #17c7d1;
+}
+
 					/*-------------------WHAT I DO------------------*/
 
 
