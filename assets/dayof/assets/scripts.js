@@ -15692,10 +15692,32 @@ return( PubSub );
 app.controller( "AppController", Controller );
 /** @ngInject */
 function Controller(
-$scope, $document, $route, $routeParams, $location, $window, $timeout, config,
-requestContext, shareService, sessionService, screenService, Deferred, projectViewingService,
-_, modelEvents, ipInfoService, hotspotService, userPreferenceService, beforeUnloadService,
-analyticsService, ScreenAlignmentHelper, appSettings, commentObjectService, sessionInactivityService
+$document,
+$location,
+$route,
+$routeParams,
+$scope,
+$timeout,
+$window,
+_,
+analyticsService,
+appSettings,
+beforeUnloadService,
+commentObjectService,
+config,
+Deferred,
+hotspotService,
+ipInfoService,
+modelEvents,
+projectViewingService,
+requestContext,
+ScreenAlignmentHelper,
+screenService,
+sessionInactivityService,
+sessionService,
+shareService,
+userPreferenceService,
+userService
 ) {
 $scope.config = config;
 $scope.share = config.share;
@@ -16180,11 +16202,17 @@ $scope.shareUser = config.user;
 $scope.user = sessionService.user;
 appSettings.setUser( $scope.user );
 $scope.user.isUserValidationRequired = false;
-if (appSettings.getSettings().features.shareCommentingLogin && sessionService.user.email) {
+$scope.user.tempAvatar;
+if ( appSettings.getSettings().features.shareCommentingLogin && sessionService.user.email ) {
 shareService
-.isUserValidationRequired( sessionService.user.email )
-.then(function(response) {
-$scope.user.isUserValidationRequired = response.isUserValidationRequired;
+.getExistingUser( sessionService.user.email )
+.then(function( response ) {
+$scope.user.isUserValidationRequired = response && response.name;
+if ( $scope.user.isUserValidationRequired ) {	
+$scope.user.tempAvatar = response.avatarID;
+$scope.user.tempInitials = userService.getInitials( response.name );
+$scope.user.hasSystemAvatar = userService.isSystemAvatar( response.avatarID );
+}
 })
 ;
 }
@@ -17233,7 +17261,7 @@ if (!sessionService.user.isAccountAuthenticated) {
 if ( sessionService.user.isAnonymous ) {
 $scope.isIdentifying = true;
 return;
-} else if ($scope.user.isUserValidationRequired) {
+} else if ( $scope.user.isUserValidationRequired ) {
 existingUser(true);
 return;
 }
@@ -17466,15 +17494,20 @@ if ( $scope.isIdentifying && isFormValid() ) {
 var isUserValidationRequired = false;
 if ( settings.features.shareCommentingLogin ) {
 shareService
-.isUserValidationRequired( $scope.identity.email )
-.then(function(response) {
-isUserValidationRequired = response.isUserValidationRequired;
-existingUser(isUserValidationRequired);
+.getExistingUser( $scope.identity.email )
+.then( function( response ) {
+isUserValidationRequired = response && response.name;
+if ( isUserValidationRequired ) {
+$scope.user.tempAvatar = response.avatarID;
+$scope.user.tempInitials = userService.getInitials( response.name );
+$scope.user.hasSystemAvatar = userService.isSystemAvatar( response.avatarID );	
+}
+existingUser( isUserValidationRequired );
 return;
 })
 ;
 } else {
-existingUser(isUserValidationRequired);
+existingUser( isUserValidationRequired );
 return;
 }
 }
@@ -17682,7 +17715,7 @@ $scope.conversationTitle = "Start a conversation";
 $scope.currentEmail = "";
 var GENERAL_ERROR = "Something went wrong. Please refresh your browser.";
 var INVALID_FIELD_ERROR = "Please enter a valid name and email address.";
-var INVALID_PASSWORD_ERROR = "Sorry, that password isn't right.";
+var INVALID_PASSWORD_ERROR = "Sorry, password isn't right. We can help you <a class='underline' href='/d/password/requestReset' target='_blank'>recover your password.</a>";
 var UNEXPECTED_ERROR = "Unexpected error.";
 var BRUTEFORCE_ERROR = "Sorry, you have attempted to login too many times.";
 var FORBIDDEN_ERROR = "Something is funky - it looks like you already identified yourself. Try refreshing your browser - that should fix it.";
@@ -25665,10 +25698,10 @@ phoneNumber: phoneNumber
 });
 return( promise );
 }
-function isUserValidationRequired( userEmail ) {
+function getExistingUser( userEmail ) {
 return serviceHelper.executeRequest({
 resource: resource,
-name: "isUserValidationRequired",
+name: "getExistingUser",
 parameters: {
 userEmail: userEmail
 }
@@ -25740,10 +25773,10 @@ params: {
 command: "get-share-config"
 }
 },
-isUserValidationRequired: {
+getExistingUser: {
 method: "POST",
 params: {
-command: "is-user-validation-required"
+command: "get-existing-user"
 }
 },
 validateUser: {
@@ -25758,7 +25791,7 @@ var cachedShareConfigFailure = null;
 return({
 getShare: getShare,
 identify: identify,
-isUserValidationRequired: isUserValidationRequired,
+getExistingUser: getExistingUser,
 sendSMS: sendSMS,
 getShareConfig: getShareConfig,
 validateUser: validateUser
