@@ -190,14 +190,28 @@ section#about .subsection .bio {
 section#work .subsection #casestudy-container .casestudy-img {
     float: left;
     width: 400px;
-    height: 575.21px;
-    padding: 25px 75px 0 0;
+    height: 400px;
+    padding: 25px 75px 50px 0;
 }
 
 
 section#work .subsection #casestudy-container .casestudy-des {
     width: 600px;
     float: left;
+    margin: 100px 25px 200px 50px;
+}
+
+section#work .subsection #casestudy-container .casestudy-img_2 {
+    float: right;
+    width: 400px;
+    height: 400px;
+    padding: 25px 75px 50px 0;
+}
+
+
+section#work .subsection #casestudy-container .casestudy-des_2 {
+    width: 600px;
+    float: right;
     margin: 100px 25px 25px 50px;
 }
 
@@ -207,9 +221,24 @@ section#work .subsection #casestudy-container .casestudy-des h4 {
 
 section#work .subsection #casestudy-container .casestudy-des p {
     font-size: 18px;
+    font-weight: 50;
 }
 
 section#work .subsection #casestudy-container .casestudy-des a {
+   font-size: 14px;
+   text-decoration: none;
+   color: #17c7d1;
+}
+
+section#work .subsection #casestudy-container .casestudy-des_2 h4 {
+    font-size: 24px;
+}
+
+section#work .subsection #casestudy-container .casestudy-des_2 p {
+    font-size: 18px;
+}
+
+section#work .subsection #casestudy-container .casestudy-des_2 a {
    font-size: 14px;
    text-decoration: none;
    color: #17c7d1;
@@ -661,15 +690,29 @@ section#contact .subsection p{
     section#work .subsection #casestudy-container .casestudy-img {
     float: left;
     width: 300px;
-    height: 431.41px;
-    padding: 25px 50px 0px 0;
+    height: 300px;
+    padding: 25px 50px 50px 0;
     }
 
     section#work .subsection #casestudy-container .casestudy-des {
     width: 300px;
     float: left;
+    margin: 25px 25px 150px 25px;
+    }
+
+    section#work .subsection #casestudy-container .casestudy-img_2 {
+    float: right;
+    width: 300px;
+    height: 300px;
+    padding: 25px 50px 50px 0;
+    }
+
+    section#work .subsection #casestudy-container .casestudy-des_2 {
+    width: 300px;
+    float: right;
     margin: 25px 25px 25px 25px;
     }
+
 
 
     /*FUELS*/
@@ -761,7 +804,7 @@ section#contact .subsection p{
 
     section#work .subsection #casestudy-container .casestudy-img {
     width: 200px;
-    height: 287.61px;
+    height: 200px;
     padding: 25px 0px 0 75px;
     margin: 0 auto;
     }
@@ -772,8 +815,23 @@ section#contact .subsection p{
     width: 250px;
     clear: both;
     text-align: center;
+    margin: 100px 25px 0px 50px;
     }
 
+    section#work .subsection #casestudy-container .casestudy-img_2 {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    }
+
+    section#work .subsection #casestudy-container .casestudy-des_2 {
+    transform: translateY(30%);
+    transform: translateY(-45%);
+    width: 250px;
+    clear: both;
+    text-align: center;
+    margin: 50px 50px 0px 50px;
+    }
 
 
     /*WHAT I DO**/
@@ -861,8 +919,8 @@ section#contact .subsection p{
 
     section#work .subsection #casestudy-container .casestudy-img {
     width: 200px;
-    height: 287.61px;
-    padding: 25px 0px 0 75px;
+    height: 200px;
+    padding: 25px 0px 50px 75px;
     margin: 0 auto;
     }
 
@@ -872,7 +930,24 @@ section#contact .subsection p{
     width: 250px;
     clear: both;
     text-align: center;
+    margin: 50px 25px 0px 50px;
     }
+
+    section#work .subsection #casestudy-container .casestudy-img_2 {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    }
+
+    section#work .subsection #casestudy-container .casestudy-des_2 {
+    transform: translateY(30%);
+    transform: translateY(-45%);
+    width: 250px;
+    clear: both;
+    text-align: center;
+    margin: 50px 50px 0px 50px;    
+    }
+
 
 
     /*DO*/
