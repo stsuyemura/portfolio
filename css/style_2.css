@@ -189,9 +189,9 @@ section#about .subsection .bio {
 
 section#work .subsection #casestudy-container .casestudy-img {
     float: left;
-    width: 400px;
-    height: 400px;
-    padding: 25px 75px 50px 0;
+    width: 572.5px;
+    height: 250px;
+    padding: 25px 25px 50px 0;  
 }
 
 
@@ -202,9 +202,9 @@ section#work .subsection #casestudy-container .casestudy-des {
 }
 
 section#work .subsection #casestudy-container .casestudy-img_2 {
-    float: right;
-    width: 400px;
-    height: 400px;
+    float: left;
+    width: 572.5px;
+    height: 250px;
     padding: 25px 0 50px 0;
 }
 
@@ -433,29 +433,31 @@ section#contact .subsection p{
     /*WORK*/
     section#work .subsection #casestudy-container .casestudy-img {
     float: left;
-    width: 300px;
-    height: 300px;
-    padding: 25px 50px 50px 0;
+    width: 572.5px;
+    height: 250px;
+    padding: 25px 25px 50px 0;  
+    margin: 0 0 0 75px;
     }
 
-    section#work .subsection #casestudy-container .casestudy-des {
+/*    section#work .subsection #casestudy-container .casestudy-des {
     width: 300px;
     float: left;
     margin: 25px 25px 150px 25px;
-    }
+    }*/
 
     section#work .subsection #casestudy-container .casestudy-img_2 {
-    float: right;
-    width: 300px;
-    height: 300px;
-    padding: 25px 50px 50px 0;
+    clear: both;
+    width: 572.5px;
+    height: 250px;
+    padding: 25px 0 50px 0;
+    margin: 0 0 0 75px;
     }
 
-    section#work .subsection #casestudy-container .casestudy-des_2 {
+/*    section#work .subsection #casestudy-container .casestudy-des_2 {
     width: 300px;
     float: right;
     margin: 25px 25px 25px 25px;
-    }
+    }*/
 
     /*GALLERY*/
     section#do .subsection #work-col-1  {
@@ -542,10 +544,18 @@ section#contact .subsection p{
     }
 
     section#work .subsection #casestudy-container .casestudy-img {
-    width: 572.5px;
-    height: 250px;
-    padding: 25px 0px 0 75px;
-    margin: 0 auto;
+    float: left;
+    width: 400px;
+    height: 174.75px;
+    padding: 25px 25px 25px 0;  
+    margin: 0 0 0 25px;
+    }
+    section#work .subsection #casestudy-container .casestudy-img_2 {
+    clear: both;
+    width: 400px;
+    height: 174.75px;
+    padding: 25px 0 50px 0;
+    margin: 0 0 0 0px;
     }
 
 /*    section#work .subsection #casestudy-container .casestudy-des {
@@ -557,12 +567,6 @@ section#contact .subsection p{
     margin: 100px 25px 0px 50px;
     }
 */
-    section#work .subsection #casestudy-container .casestudy-img_2 {
-    width: 572.5px;
-    height: 250px;
-    margin: 0 auto;
-    padding: 25px 75px 50px 0px;
-    }
 
 /*    section#work .subsection #casestudy-container .casestudy-des_2 {
     transform: translateY(30%);
@@ -650,13 +654,21 @@ section#contact .subsection p{
     }
 
     section#work .subsection #casestudy-container .casestudy-img {
-    width: 200px;
-    height: 200px;
-    padding: 25px 0px 50px 75px;
-    margin: 0 auto;
+    float: left;
+    width: 325px;
+    height: 141.992px;
+    padding: 25px 25px 25px 0;  
+    margin: 0 0 0 25px;
+    }
+    section#work .subsection #casestudy-container .casestudy-img_2 {
+    clear: both;
+    width: 325px;
+    height: 141.992px;
+    padding: 25px 0 50px 0;
+    margin: 0 0 0 10px;
     }
 
-    section#work .subsection #casestudy-container .casestudy-des {
+/*    section#work .subsection #casestudy-container .casestudy-des {
     transform: translateY(30%);
     transform: translateY(-45%);
     width: 250px;
@@ -664,16 +676,9 @@ section#contact .subsection p{
     text-align: center;
     margin: 50px 25px 0px 50px;
     }
+*/
 
-    section#work .subsection #casestudy-container .casestudy-img_2 {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    padding: 25px 75px 50px 0px;
-    }
-
-
-    section#work .subsection #casestudy-container .casestudy-des_2 {
+/*    section#work .subsection #casestudy-container .casestudy-des_2 {
     transform: translateY(30%);
     transform: translateY(-45%);
     width: 250px;
@@ -681,7 +686,7 @@ section#contact .subsection p{
     text-align: center;
     margin: 50px 50px 0px 50px;    
     }
-
+*/
 
     /*GALLERY*/
     section#do .subsection #work-col-1  {
