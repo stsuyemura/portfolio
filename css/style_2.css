@@ -205,14 +205,14 @@ section#work .subsection #casestudy-container .casestudy-img_2 {
     float: right;
     width: 400px;
     height: 400px;
-    padding: 25px 75px 50px 0;
+    padding: 25px 0 50px 0;
 }
 
 
 section#work .subsection #casestudy-container .casestudy-des_2 {
     width: 600px;
     float: right;
-    margin: 100px 25px 25px 50px;
+    margin: 100px 0px 25px 100px;
 }
 
 section#work .subsection #casestudy-container .casestudy-des h4 {
@@ -250,39 +250,54 @@ section#work .subsection #casestudy-container .casestudy-des_2 a {
 
 
 
-          /*-------------------WORK------------------*/
+          /*-------------------EXAMPLES------------------*/
 
 section#do .subsection #work-col-1  {
     float: left;
-    width: 290px;
-    margin: 0 75px 25px 0;
+    width: 325px;
+    padding: 25px 48.75px 25px 0px;
 }
 
 section#do .subsection #work-col-2  {
     float: left;
-    width: 290px;
-    margin: 0 75px 25px 75px;
+    width: 325px;
+    padding: 25px 48.75px 25px 48.75px;
 }
 
 section#do .subsection #work-col-3  {
     float: left;
-    width: 290px;
-    margin: 0 0 25px 75px;
+    width: 325px;
+    padding: 25px 0px 25px 48.75px;
 }
 
 
 section#do .subsection .work-img {
     float: left;
-    width: 290px;
+    width: 325px;
     margin: 0 0 25px 0;
+    box-shadow: 1px 1px 2px #e6e6e6;
+}
+section#do .subsection .work-des  {
+    text-align: center;
 }
 
-section#do .subsection .work-des h4 {
+section#do .subsection #work-col-1 .work-des a {
     text-decoration: none;
 /*    font-size: 14px;
     color: #17c7d1;*/
-    text-align: center;
-    
+    text-align: center;  
+}
+section#do .subsection #work-col-2 .work-des a {
+    text-decoration: none;
+/*    font-size: 14px;
+    color: #17c7d1;*/
+    text-align: center;  
+}
+section#do .subsection #work-col-3 .work-des a {
+    text-decoration: none;
+/*    font-size: 14px;
+    color: #17c7d1;*/
+    text-align: center;  
 }
 
 
@@ -365,7 +380,7 @@ section#contact .subsection p{
 
 
 
-					/*-------------------RESPONSIVE------------------*/
+          /*-------------------RESPONSIVE------------------*/
 
 /* Desktops and laptops */
 @media (min-width: 1200px) { 
@@ -442,31 +457,26 @@ section#contact .subsection p{
     margin: 25px 25px 25px 25px;
     }
 
-
-
-    /*FUELS*/
-    .circle-position {
-      margin: 0 auto;
-      display: table;
-      width: 347px;
-      /*vertical-align: center;*/
-    }
-    .col-1{
+    /*GALLERY*/
+    section#do .subsection #work-col-1  {
+      padding: 25px 0 25px 0;
       float: left;
-      margin: 0 25px 25px 25px;
-      padding: 0 0 0 0px;
-      /*background-color: #000;*/
+      margin: 0 0px 0 200px;
     }
-    .col-2 {
+
+    section#do .subsection #work-col-2  {
       clear: both;
-      margin: 0 25px 25px 25px;
-      padding: 0 0 0 0px;
+      padding: 25px 0 25px 0;
+      margin: 0 0px 0 200px;
     }
-    .col-3 {
+
+    section#do .subsection #work-col-3  {
       clear: both;
-      margin: 0 25px 25px 25px;
-      padding: 0 0 0 0px;
+      padding: 25px 0 25px 0;
+      margin: 0 0px 0 200px;
     }
+
+
 
 }
 
@@ -532,13 +542,13 @@ section#contact .subsection p{
     }
 
     section#work .subsection #casestudy-container .casestudy-img {
-    width: 200px;
-    height: 200px;
+    width: 572.5px;
+    height: 400px;
     padding: 25px 0px 0 75px;
     margin: 0 auto;
     }
 
-    section#work .subsection #casestudy-container .casestudy-des {
+/*    section#work .subsection #casestudy-container .casestudy-des {
     transform: translateY(30%);
     transform: translateY(-45%);
     width: 250px;
@@ -546,48 +556,41 @@ section#contact .subsection p{
     text-align: center;
     margin: 100px 25px 0px 50px;
     }
-
+*/
     section#work .subsection #casestudy-container .casestudy-img_2 {
-    width: 200px;
-    height: 200px;
+    width: 572.5px;
+    height: 400px;
     margin: 0 auto;
+    padding: 25px 75px 50px 0px;
     }
 
-    section#work .subsection #casestudy-container .casestudy-des_2 {
+/*    section#work .subsection #casestudy-container .casestudy-des_2 {
     transform: translateY(30%);
     transform: translateY(-45%);
     width: 250px;
     clear: both;
     text-align: center;
     margin: 50px 50px 0px 50px;
-    }
+    }*/
 
 
-    /*WHAT I DO**/
-
-
-    /*FUELS*/
-    .circle-position {
-      margin: 0 auto;
-      display: table;
-      width: 347px;
-      /*vertical-align: center;*/
-    }
-    .col-1{
+    /*GALLERY*/
+    section#do .subsection #work-col-1  {
+      padding: 25px 0 25px 0;
       float: left;
-      margin: 0 25px 25px 25px;
-      padding: 0 0 0 0px;
-      /*background-color: #000;*/
+      margin: 0 0px 0 100px;
     }
-    .col-2 {
+
+    section#do .subsection #work-col-2  {
       clear: both;
-      margin: 0 25px 25px 25px;
-      padding: 0 0 0 0px;
+      padding: 25px 0 25px 0;
+      margin: 0 0px 0 100px;
     }
-    .col-3 {
+
+    section#do .subsection #work-col-3  {
       clear: both;
-      margin: 0 25px 25px 25px;
-      padding: 0 0 0 0px;
+      padding: 25px 0 25px 0;
+      margin: 0 0px 0 100px;
     }
 
 }
@@ -666,7 +669,9 @@ section#contact .subsection p{
     width: 200px;
     height: 200px;
     margin: 0 auto;
+    padding: 25px 75px 50px 0px;
     }
+
 
     section#work .subsection #casestudy-container .casestudy-des_2 {
     transform: translateY(30%);
@@ -678,39 +683,23 @@ section#contact .subsection p{
     }
 
 
-
-    /*DO*/
-    section#do .subsection h2 {
-      text-align: center;
-      padding: 0;
-    } 
-
-    /*FUELS*/
-    section#fuels .subsection h2 {
-      text-align: center;
-      padding: 0;
-    }    
-    .circle-position {
-      margin: 0 auto;
-      display: table;
-      width: 347px;
-      /*vertical-align: center;*/
-    }
-    .col-1{
+    /*GALLERY*/
+    section#do .subsection #work-col-1  {
+      padding: 25px 0 25px 0;
       float: left;
-      margin: 0 25px 25px 25px;
-      padding: 0 0 0 0px;
-      /*background-color: #000;*/
+      margin: 0 0px 0 15px;
     }
-    .col-2 {
+
+    section#do .subsection #work-col-2  {
       clear: both;
-      margin: 0 25px 25px 25px;
-      padding: 0 0 0 0px;
+      padding: 25px 0 25px 0;
+      margin: 0 0px 0 15px;
     }
-    .col-3 {
+
+    section#do .subsection #work-col-3  {
       clear: both;
-      margin: 0 25px 25px 25px;
-      padding: 0 0 0 0px;
+      padding: 25px 0 25px 0;
+      margin: 0 0px 0 15px;
     }
 
     /*REACH OUT*/
@@ -740,6 +729,8 @@ section#contact .subsection p{
       text-align: center;
     }
 }
+
+
 
 
 
