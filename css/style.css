@@ -26,8 +26,8 @@ section .subsection {
 
 /*----NAVIGATION----*/
 section#intro {
-	background-color: #17c7d1;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #505050;
 	text-align: center;
 }
 section#intro .subsection #nav-wrapper {
@@ -56,7 +56,7 @@ section#intro .subsection #nav-wrapper #nav-right {
 
 section#intro .subsection #nav-wrapper #nav-right a {
 	font-family: 'Roboto',"Helvetica Neue","Helvetica","Arial",sans-serif;
-	color: #fff;
+	color: #8A8C8E;
     font-size: 1em;
     font-weight: 100;
     float: left;
@@ -130,12 +130,10 @@ section#intro .subsection #header-title .name {
 }
 
 section#intro .subsection #header-title .name #first {
-	float: left;
+float: left;
 }
 
 section#intro .subsection #header-title .name #last {
-
-	opacity: 0.5;
 	float: left;
 }
 
@@ -159,7 +157,7 @@ h4 {
 
 					/*-------------------ABOUT ME-----------------*/
 section#about {
-/*	background-color: #959696;*/
+ background-color: #f1f1f2;
 }
 section#about .subsection .portrait {
     float: left;
@@ -183,7 +181,7 @@ section#about .subsection .bio {
 
           /*-------------------CASE STUDY------------------*/
 #work {
-  background-color: #f1f1f2;
+  background-color: #ffffff;
   clear: left;
 }
 
