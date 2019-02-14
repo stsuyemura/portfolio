@@ -189,7 +189,7 @@ section#work .subsection #casestudy-container .casestudy-img {
     float: left;
     width: 572.5px;
     height: 250px;
-    padding: 25px 25px 0px 0;  
+    padding: 25px 25px 25px 0;  
 }
 
 section#work .subsection #casestudy-container .gif {
@@ -715,6 +715,7 @@ section#contact .subsection p{
     padding: 0px 0 50px 0;
     margin: 0 0 25px 75px;
     }
+
 
 /*    section#work .subsection #casestudy-container .casestudy-des_2 {
     width: 300px;
