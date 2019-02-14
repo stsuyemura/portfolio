@@ -29,6 +29,14 @@ section#tabletrack .subsection .casestudy .wrapper img {
   width: 957px;
   display: block;
 }
+
+section#tabletrack .subsection .casestudy .wrapper img.gif {
+  margin: 0 auto;
+  width: 400px; 
+  display: block;
+  padding: 20px 0 50px 0;
+}
+
 section#tabletrack .subsection .casestudy .wrapper h2{
 /*  padding: 50px 0 0 0;*/
   clear: both;
